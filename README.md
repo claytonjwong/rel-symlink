@@ -118,3 +118,8 @@
     * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 ```
+
+## Note: broken absolute symbolic links can be found from the command line
+```
+find -L . -type l
+```
